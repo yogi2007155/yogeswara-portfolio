@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yogeswara Rao | Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #e8f3eb;
+      color: #18332a;
+    }
+
+    header {
+      background: white;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #dce8e1;
+      position: sticky;
+      top: 0;
+    }
+
+    .logo {
+      color: #176b55;
+      font-size: 22px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    nav a {
+      color: #53665e;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    nav a:hover {
+      color: #176b55;
+    }
+
+    section {
+      padding: 65px 8%;
+    }
+
+    .hero {
+      min-height: 470px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      background: #123d2e;
+      color: #f3fbf5;
+    }
+
+    .hero .tag {
+      color: #a9dec0;
+    }
+
+    .hero p {
+      color: #d7ecdf;
+    }
+
+    .hero .button.outline {
+      color: #f3fbf5;
+      border-color: #a9dec0;
+    }
+
+    .hero-text {
+      max-width: 600px;
+    }
+
+    .tag {
+      color: #176b55;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 52px;
+      margin: 15px 0;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #5d7068;
+      line-height: 1.7;
+    }
+
+    .button {
+      display: inline-block;
+      background: #176b55;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 7px;
+      margin: 12px 8px 0 0;
+      text-decoration: none;
+    }
+
+    .button.outline {
+      background: transparent;
+      color: #176b55;
+      border: 1px solid #176b55;
+    }
+
+    .avatar {
+      width: 190px;
+      height: 190px;
+      border-radius: 50%;
+      background: #dcefe5;
+      color: #176b55;
+      display: grid;
+      place-items: center;
+      font-size: 46px;
+      font-weight: bold;
+      flex-shrink: 0;
+      object-fit: cover;
+    }
+
+    .light-section {
+      background: white;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #e5f1eb;
+      color: #176b55;
+      padding: 10px 16px;
+      border-radius: 20px;
+      margin: 7px;
+    }
+
+    .project {
+      background: white;
+      border: 1px solid #dce8e1;
+      border-radius: 12px;
+      padding: 24px;
+      max-width: 850px;
+    }
+
+    .label {
+      color: #176b55;
+      font-weight: bold;
+    }
+
+    .contact {
+      background: #102b25;
+      color: white;
+      border-radius: 12px;
+      padding: 28px;
+    }
+
+    .contact p,
+    .contact a {
+      color: #d0e5da;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #687a72;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 14px;
+      }
+
+      nav a {
+        margin: 0 12px 0 0;
+      }
+
+      .hero {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a class="logo" href="#home">YR.</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <p class="tag">SKILL ENHANCEMENT LEARNER</p>
+      <h1>Hi, I'm Yogeswara Rao.</h1>
+      <p>
+        I’m learning to build useful digital experiences with code.
+        I enjoy creating simple websites and improving my skills
+        by working on new ideas and projects.
+      </p>
+      <a class="button" href="#projects">View My Project Idea</a>
+      <a class="button outline" href="#contact">Contact Me</a>
+    </div>
+
+    <img class="avatar" src="../profile.jpg.jpeg" alt="Yogeswara Rao">
+  </section>
+
+  <section class="light-section" id="about">
+    <p class="tag">A LITTLE ABOUT ME</p>
+    <h2>Curious, learning, building.</h2>
+    <p>
+      I’m building my foundation in programming and web development
+      through hands-on practice. I have learned Python, JavaScript,
+      HTML, CSS, Git, and GitHub. I enjoy turning ideas into clear,
+      useful websites. I’m especially interested in technology that
+      can help students understand career opportunities and the skills
+      they may need. My goal is to keep learning and grow as a developer.
+    </p>
+  </section>
+
+  <section id="skills">
+    <p class="tag">WHAT I HAVE LEARNED</p>
+    <h2>My Skills</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>JavaScript</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Git</span>
+      <span>GitHub</span>
+    </div>
+  </section>
+
+  <section class="light-section" id="projects">
+    <p class="tag">A PROJECT I’M EXPLORING</p>
+    <h2>My Project Idea</h2>
+
+    <div class="project">
+      <p class="label">PROJECT IDEA</p>
+      <h3>Placement Analytics &amp; Skill Gap for Engineering Students</h3>
+      <p>
+        A website concept to help engineering students explore placement
+        information and understand which skills they may want to build
+        for different job roles.
+      </p>
+      <ul>
+        <li>Explore placement information by role or company</li>
+        <li>Compare current skills with the skills a role requires</li>
+        <li>Suggest a learning roadmap to help close skill gaps</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <p class="tag">LET’S CONNECT</p>
+      <h2>Contact Me</h2>
+      <p>Phone: <a href="tel:9391989763">9391989763</a></p>
+      <p>Email:
+        <a href="mailto:yogeswaraobhyrava@gmail.com">
+          yogeswaraobhyrava@gmail.com
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <footer>© 2026 Yogeswara Rao · Personal Portfolio</footer>
+
+</body>
+</html>
